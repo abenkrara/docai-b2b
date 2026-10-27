@@ -1,0 +1,32 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de entorno y credenciales
+.env
+.env*.local
+!.env.example
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Base de datos vectorial local (ChromaDB)
+chroma_db/
+chromadb/
+.chroma/
+*.chromadb
+
+# Streamlit (secretos locales)
+.streamlit/secrets.toml
+
+# Archivos temporales del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
